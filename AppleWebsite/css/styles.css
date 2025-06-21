@@ -1,0 +1,44 @@
+*{
+  padding:0;
+  margin:0;  
+}
+img{
+  max-width: 100%;
+}
+
+.header-wrapper{
+    background: black;
+    color:#fff;
+    font-weight: 200;
+    font-size: 0.75em;
+}
+.header-wrapper ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.internal-wrapper{
+  width: 960px;
+  padding: 0 10px;
+  margin: 0 auto
+ 
+}
+.internal-wrapper ul li a{
+  color:#fff;
+  text-decoration: none;
+}
+.internal-wrapper ul li{
+  display:inline-block;
+  height:25px;
+  padding: 14px 0 8px;
+  opacity:0.8
+}
+.internal-wrapper ul li:hover{
+  opacity:1
+}
+.apple-logo, .search-icon, .cart-icon{
+  width:18px;
+  display:block;
+}
+
+/* footer style*/
